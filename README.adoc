@@ -1,0 +1,10 @@
+= Web Front-end
+
+* main branch를 기준으로 feature/{학번} branch를 생성하여 제출 합니다.
+
+** ex) feature/JBGW08-001
+
+== 실습
+* https://github.com/nhnacademy-bootcamp/web-frontend/blob/main/01.html/13.%EA%B3%BC%EC%A0%9C/index.adoc[이력서 만들기-1]
+
+* https://github.com/nhnacademy-bootcamp/web-frontend/blob/main/02.css/08.%EA%B3%BC%EC%A0%9C/index.adoc[이력서 만들기-2]
