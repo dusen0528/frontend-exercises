@@ -1,0 +1,209 @@
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .outer-border {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #000;
+  }
+  
+  .resume {
+    width: 100%;
+    padding: 15px;
+    font-family: sans-serif;
+  }
+  
+  .resume h1 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+  }
+  
+  .personal-info-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .photo {
+    width: 150px;
+    height: 190px;
+    border: 2px solid #000;
+    flex-shrink: 0;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 2px solid #000;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+  }
+
+  .personal-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  td {
+    word-break: break-word;
+  }
+</style>
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>최인호 이력서 - 최치원</title>
+  </head>
+  <body>
+  <div class="outer-border">
+    <div class="resume">
+      <h1>이력서</h1>
+      
+      <div class="personal-info-container">
+        <div class="photo">
+          <img src="img/최치원.jpeg" alt="최치원 초상화">
+        </div>
+        
+        <table class="personal-info">
+          <tr>
+            <th>이름</th>
+            <td>최치원</td>
+            <th>나이</th>
+            <td>65세</td>
+          </tr>
+          <tr>
+            <th>주소</th>
+            <td>가야산 해인사</td>
+            <th>본관</th>
+            <td>경주</td>
+          </tr>
+          <tr>
+            <th>본적</th>
+            <td>신라 경주</td>
+            <th>자</th>
+            <td>고운(孤雲)</td>
+          </tr>
+          <tr>
+            <th>생년월일</th>
+            <td>857년</td>
+            <th>호</th>
+            <td>해운(海雲)</td>
+          </tr>
+          <tr>
+            <th>신분</th>
+            <td>신라 진골귀족</td>
+            <th>가족관계</th>
+            <td>부: 최인상</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section-title">학력사항</div>
+      <table class="education">
+        <tr>
+          <th>년</th>
+          <th>월</th>
+          <th>일</th>
+          <th style="width: auto;">학교</th>
+          <th>비고</th>
+        </tr>
+        <tr>
+          <td>868</td>
+          <td>2</td>
+          <td></td>
+          <td>당나라 유학</td>
+          <td>12세</td>
+        </tr>
+        <tr>
+          <td>874</td>
+          <td></td>
+          <td></td>
+          <td>당나라 과거 급제</td>
+          <td>18세</td>
+        </tr>
+      </table>
+
+      <div class="section-title">관직사항</div>
+      <table class="certification">
+        <tr>
+          <th>년</th>
+          <th>월</th>
+          <th>일</th>
+          <th style="width: auto;">관직</th>
+          <th>비고</th>
+        </tr>
+        <tr>
+          <td>874</td>
+          <td></td>
+          <td></td>
+          <td>당나라 선주 소주자사</td>
+          <td>18세</td>
+        </tr>
+        <tr>
+          <td>885</td>
+          <td></td>
+          <td></td>
+          <td>신라 시독겸한림학사</td>
+          <td>귀국 후</td>
+        </tr>
+      </table>
+
+      <div class="section-title">주요 저술</div>
+      <table class="experience">
+        <tr>
+          <th>저술명</th>
+          <th>분류</th>
+          <th style="width: auto;">내용</th>
+        </tr>
+        <tr>
+          <td>계원필경</td>
+          <td>시문집</td>
+          <td>당나라에서의 시문을 모음</td>
+        </tr>
+        <tr>
+          <td>제왕연대력</td>
+          <td>역사서</td>
+          <td>삼국의 역사를 정리</td>
+        </tr>
+        <tr>
+          <td>고운문집</td>
+          <td>시문집</td>
+          <td>한시와 산문을 수록</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
